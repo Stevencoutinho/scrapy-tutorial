@@ -4,28 +4,38 @@ scrapyを使ってwebページの情報を取得し、最終的にMySQLとjson�
 
 ## install
 
-```pip install scrapy```
+```console
+pip install scrapy
+```
 
 ## start project
 
-```scrapy startproject <プロジェクト名>```
+```console
+scrapy startproject <プロジェクト名>
+```
 
 ## create spider
 
-```scrapy genspider <ファイル名> <スクレイピングしたいweb URL>```
+```console
+scrapy genspider <ファイル名> <スクレイピングしたいweb URL>
+```
 
 ## running
 
-```scrapy crawl <クロール名> -o <出力するファイル名 csv or json>```
+```console
+scrapy crawl <クロール名> -o <出力するファイル名 csv or json>
+```
 
 今回の場合は...
 
-```scrapy crawl magazine -o magazine.json```
+```console
+scrapy crawl magazine -o magazine.json
+```
 
 
 ## MySQL
 
-```
+```sql
 create database scrapy;
 create table scrapy.magazine (
   `guid` varchar(32) not null primary key,
