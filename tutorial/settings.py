@@ -19,11 +19,6 @@ NEWSPIDER_MODULE = 'tutorial.spiders'
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = True
 
-
-# HOST = 'localhost'
-# DB_NAME = 'scrapy'
-# DB_USER = 'root'
-# DB_PASSWORD = ''
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
 #CONCURRENT_REQUESTS = 32
 
