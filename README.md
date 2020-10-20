@@ -1,6 +1,7 @@
 # Scrapy
 
-scrapyを使ってwebページの情報を取得し、最終的にMySQLとjsonファイルに登録したいと思います。
+scrapyを使ってwebページの情報を取得し、最終的にMySQLとjsonファイルに登録したいと思います。<br>
+後々jsonやcsvを分析するために、jupyterでdataframe化しています。
 
 ## install
 
